@@ -17,10 +17,10 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     DataProvider dataProvider = Provider.of<DataProvider>(context);
-    ThemeProvider themeProviderFalse =
+    // ThemeProvider themeProviderFalse =
     Provider.of<ThemeProvider>(context, listen: false);
     LangProvider langProvider = Provider.of<LangProvider>(context);
-    LangProvider langProviderFalse =
+    // LangProvider langProviderFalse =
     Provider.of<LangProvider>(context, listen: false);
     dataProvider.getGeetaData();
     return Scaffold(
